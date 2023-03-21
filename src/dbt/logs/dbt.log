@@ -1,0 +1,829 @@
+
+
+============================== 2023-03-14 17:05:35.734683 | fe8b6fb9-114b-42a4-811d-fc61183076e0 ==============================
+17:05:35.734683 [info ] [MainThread]: Running with dbt=1.0.9
+17:05:35.734954 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/nandhu/.dbt', project_dir=None, project_name=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+17:05:35.735066 [debug] [MainThread]: Tracking: tracking
+17:05:35.740778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dec428460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dec428520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dec428130>]}
+17:05:35.741049 [info ] [MainThread]: Setting up your profile.
+17:08:13.054053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dbc12bee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dbc12bdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dbc12b280>]}
+17:08:13.081542 [warn ] [MainThread]: Error sending message, disabling tracking
+
+
+============================== 2023-03-14 17:08:55.524169 | fc9cf57b-6319-45f6-928d-f4b87a040f4b ==============================
+17:08:55.524169 [info ] [MainThread]: Running with dbt=1.0.9
+17:08:55.524530 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/nandhu/.dbt', project_dir=None, project_name=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+17:08:55.524677 [debug] [MainThread]: Tracking: tracking
+17:08:55.532630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa037c6100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa037c61c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa037c6c10>]}
+17:08:55.533059 [info ] [MainThread]: Setting up your profile.
+17:09:32.370272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa0381e5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa0381e8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9cd523d90>]}
+
+
+============================== 2023-03-14 17:10:26.535283 | bfd349b4-20f3-414a-9139-1473486d5d9a ==============================
+17:10:26.535283 [info ] [MainThread]: Running with dbt=1.0.9
+17:10:26.535693 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/nandhu/.dbt', project_dir=None, project_name=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+17:10:26.535872 [debug] [MainThread]: Tracking: tracking
+17:10:26.544161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe4e82c8100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe4e82c8190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe4e82c8be0>]}
+17:10:26.544565 [info ] [MainThread]: Creating dbt configuration folder at /home/nandhu/.dbt
+17:10:26.544957 [info ] [MainThread]: Setting up your profile.
+17:11:00.080026 [info ] [MainThread]: Profile nvidia-snowflake written to /home/nandhu/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+17:11:00.080469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe4e831f9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe4e831fb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe4b1e39e20>]}
+
+
+============================== 2023-03-14 17:11:12.185173 | aedc0459-5c73-4aaa-b8a2-ecfee7fb2fdb ==============================
+17:11:12.185173 [info ] [MainThread]: Running with dbt=1.0.9
+17:11:12.185575 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.debug.DebugTask'>, config_dir=False, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/nandhu/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='debug', write_json=None)
+17:11:12.185705 [debug] [MainThread]: Tracking: tracking
+17:11:12.193057 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77426d0580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77426d0760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77426d09a0>]}
+17:11:12.794808 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+17:11:12.795176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'aedc0459-5c73-4aaa-b8a2-ecfee7fb2fdb', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f770c4a3be0>]}
+17:11:12.795449 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+17:11:12.795631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'aedc0459-5c73-4aaa-b8a2-ecfee7fb2fdb', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f770c4a3cd0>]}
+17:11:12.807103 [debug] [MainThread]: Executing "git --help"
+17:11:12.812818 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+17:11:12.813201 [debug] [MainThread]: STDERR: "b''"
+17:11:12.819984 [debug] [MainThread]: Acquiring new snowflake connection "debug"
+17:11:12.821155 [debug] [MainThread]: Using snowflake connection "debug"
+17:11:12.821337 [debug] [MainThread]: On debug: select 1 as id
+17:11:12.821469 [debug] [MainThread]: Opening a new connection, currently in state init
+17:11:13.849378 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.03 seconds
+17:11:13.850621 [debug] [MainThread]: On debug: Close
+17:11:13.990367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f770c441e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f770c40cf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7719ce9e50>]}
+17:11:15.164819 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-03-14 17:11:21.244080 | 400c2be4-361a-4d0e-a508-328d3a6621fc ==============================
+17:11:21.244080 [info ] [MainThread]: Running with dbt=1.0.9
+17:11:21.244520 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=None, defer=None, event_buffer_size=None, exclude=None, fail_fast=None, full_refresh=False, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/nandhu/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', select=None, selector_name=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='run', write_json=None)
+17:11:21.244723 [debug] [MainThread]: Tracking: tracking
+17:11:21.245060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa79e34040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa79e340a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa79e34100>]}
+17:11:21.265366 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+17:11:21.265749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad92a640>]}
+17:11:21.307430 [debug] [MainThread]: Parsing macros/adapters.sql
+17:11:21.346823 [debug] [MainThread]: Parsing macros/catalog.sql
+17:11:21.349229 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+17:11:21.350869 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+17:11:21.356440 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+17:11:21.365603 [debug] [MainThread]: Parsing macros/materializations/table.sql
+17:11:21.369239 [debug] [MainThread]: Parsing macros/materializations/view.sql
+17:11:21.370804 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+17:11:21.375611 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+17:11:21.389530 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+17:11:21.399550 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+17:11:21.405205 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+17:11:21.409956 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+17:11:21.414407 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+17:11:21.417266 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+17:11:21.428968 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+17:11:21.432581 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+17:11:21.434389 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+17:11:21.436079 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+17:11:21.449724 [debug] [MainThread]: Parsing macros/etc/statement.sql
+17:11:21.456896 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+17:11:21.458469 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+17:11:21.459376 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+17:11:21.460328 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+17:11:21.462013 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+17:11:21.465708 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+17:11:21.473112 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+17:11:21.476815 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+17:11:21.479658 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+17:11:21.484714 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+17:11:21.504089 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+17:11:21.510398 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+17:11:21.512180 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+17:11:21.523588 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+17:11:21.540524 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+17:11:21.552187 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+17:11:21.568265 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+17:11:21.579392 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+17:11:21.590011 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+17:11:21.591696 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+17:11:21.596885 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+17:11:21.601252 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+17:11:21.603423 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+17:11:21.614040 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+17:11:21.617899 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+17:11:21.620846 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+17:11:21.628702 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+17:11:21.831350 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/images_staging.sql
+17:11:21.844505 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/articles_metadata.sql
+17:11:21.847629 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/transactions_staging.sql
+17:11:21.850615 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/filtered_dataframe.sql
+17:11:21.853595 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/joined_dataframe.sql
+17:11:21.856025 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/dedup_transactions.sql
+17:11:21.858809 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/customers_staging.sql
+17:11:21.860934 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/articles_staging.sql
+17:11:21.879186 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'image_staging' in the 'models' section of file 'models/metaflow/schema.yml'
+17:11:21.919673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaac0218b0>]}
+17:11:21.925891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad8c2d90>]}
+17:11:21.926246 [info ] [MainThread]: Found 8 models, 4 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+17:11:21.927978 [info ] [MainThread]: 
+17:11:21.928643 [debug] [MainThread]: Acquiring new snowflake connection "master"
+17:11:21.930171 [debug] [ThreadPool]: Acquiring new snowflake connection "list_HM_MLOPS"
+17:11:21.943271 [debug] [ThreadPool]: Using snowflake connection "list_HM_MLOPS"
+17:11:21.943562 [debug] [ThreadPool]: On list_HM_MLOPS: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "connection_name": "list_HM_MLOPS"} */
+
+    show terse schemas in database HM_MLOPS
+    limit 10000
+17:11:21.943750 [debug] [ThreadPool]: Opening a new connection, currently in state init
+17:11:22.713521 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.77 seconds
+17:11:22.715197 [debug] [ThreadPool]: On list_HM_MLOPS: Close
+17:11:22.882863 [debug] [ThreadPool]: Acquiring new snowflake connection "create_HM_MLOPS_HM_POST"
+17:11:22.883220 [debug] [ThreadPool]: Acquiring new snowflake connection "create_HM_MLOPS_HM_POST"
+17:11:22.883476 [debug] [ThreadPool]: Creating schema "_ReferenceKey(database='hm_mlops', schema='hm_post', identifier=None)"
+17:11:22.887702 [debug] [ThreadPool]: Using snowflake connection "create_HM_MLOPS_HM_POST"
+17:11:22.887866 [debug] [ThreadPool]: On create_HM_MLOPS_HM_POST: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "connection_name": "create_HM_MLOPS_HM_POST"} */
+create schema if not exists HM_MLOPS.HM_POST
+17:11:22.887964 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+17:11:23.636010 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.75 seconds
+17:11:23.636989 [debug] [ThreadPool]: On create_HM_MLOPS_HM_POST: Close
+17:11:23.771887 [debug] [ThreadPool]: Acquiring new snowflake connection "list_HM_MLOPS_HM_POST"
+17:11:23.778789 [debug] [ThreadPool]: Using snowflake connection "list_HM_MLOPS_HM_POST"
+17:11:23.779050 [debug] [ThreadPool]: On list_HM_MLOPS_HM_POST: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "connection_name": "list_HM_MLOPS_HM_POST"} */
+
+    show terse objects in HM_MLOPS.HM_POST
+17:11:23.779448 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+17:11:24.518643 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.74 seconds
+17:11:24.519856 [debug] [ThreadPool]: On list_HM_MLOPS_HM_POST: Close
+17:11:24.668697 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+17:11:24.669059 [info ] [MainThread]: 
+17:11:24.672467 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.articles_staging
+17:11:24.672759 [info ] [Thread-1  ]: 1 of 8 START table model HM_POST.articles_staging............................... [RUN]
+17:11:24.673153 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.h_m_merlin_playground.articles_staging"
+17:11:24.673302 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.articles_staging
+17:11:24.673496 [debug] [Thread-1  ]: Compiling model.h_m_merlin_playground.articles_staging
+17:11:24.675006 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.articles_staging"
+17:11:24.675512 [debug] [Thread-1  ]: finished collecting timing info
+17:11:24.675649 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.articles_staging
+17:11:24.695309 [debug] [Thread-1  ]: Writing runtime SQL for node "model.h_m_merlin_playground.articles_staging"
+17:11:24.696791 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.articles_staging"
+17:11:24.697015 [debug] [Thread-1  ]: On model.h_m_merlin_playground.articles_staging: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.articles_staging"} */
+
+
+      create or replace transient table HM_MLOPS.HM_POST.articles_staging  as
+      (WITH latest_etl AS (
+    SELECT
+        "ETL_ID"
+    FROM "HM_MLOPS"."HM_RAW"."ARTICLES"
+    ORDER BY "ETL_TIMESTAMP" DESC
+    LIMIT 1
+)
+SELECT 
+    -- get the columns we need based on NVIDIA previous experiments
+    cd."RAW_DATA":"article_id"::INT AS ARTICLE_ID, 
+    cd."RAW_DATA":"product_code"::INT AS PRODUCT_CODE, 
+    cd."RAW_DATA":"product_type_no"::INT AS PRODUCT_TYPE_NO, 
+    cd."RAW_DATA":"product_group_name"::VARCHAR AS PRODUCT_GROUP_NAME, 
+    cd."RAW_DATA":"graphical_appearance_no"::INT AS graphical_appearance_no, 
+    cd."RAW_DATA":"colour_group_code"::INT AS colour_group_code, 
+    cd."RAW_DATA":"perceived_colour_value_id"::INT AS perceived_colour_value_id, 
+    cd."RAW_DATA":"perceived_colour_master_id"::INT AS perceived_colour_master_id, 
+    cd."RAW_DATA":"department_no"::INT AS department_no,
+    cd."RAW_DATA":"index_code"::VARCHAR AS index_code, 
+    cd."RAW_DATA":"index_group_no"::INT AS index_group_no, 
+    cd."RAW_DATA":"section_no"::INT AS section_no, 
+    cd."RAW_DATA":"garment_group_no"::INT AS garment_group_no
+FROM 
+    "HM_MLOPS"."HM_RAW"."ARTICLES" as cd
+JOIN 
+    latest_etl as le ON le.ETL_ID=cd.ETL_ID
+      );
+17:11:24.697139 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+17:11:28.469022 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 3.77 seconds
+17:11:28.478639 [debug] [Thread-1  ]: finished collecting timing info
+17:11:28.478883 [debug] [Thread-1  ]: On model.h_m_merlin_playground.articles_staging: Close
+17:11:28.645936 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaab570280>]}
+17:11:28.646419 [info ] [Thread-1  ]: 1 of 8 OK created table model HM_POST.articles_staging.......................... [[32mSUCCESS 1[0m in 3.97s]
+17:11:28.646722 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.articles_staging
+17:11:28.646871 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.customers_staging
+17:11:28.647346 [info ] [Thread-1  ]: 2 of 8 START table model HM_POST.customers_staging.............................. [RUN]
+17:11:28.647723 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.h_m_merlin_playground.customers_staging"
+17:11:28.647837 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.customers_staging
+17:11:28.647944 [debug] [Thread-1  ]: Compiling model.h_m_merlin_playground.customers_staging
+17:11:28.649221 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.customers_staging"
+17:11:28.649488 [debug] [Thread-1  ]: finished collecting timing info
+17:11:28.649614 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.customers_staging
+17:11:28.651002 [debug] [Thread-1  ]: Writing runtime SQL for node "model.h_m_merlin_playground.customers_staging"
+17:11:28.651827 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.customers_staging"
+17:11:28.651956 [debug] [Thread-1  ]: On model.h_m_merlin_playground.customers_staging: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.customers_staging"} */
+
+
+      create or replace transient table HM_MLOPS.HM_POST.customers_staging  as
+      (WITH latest_etl AS (
+    SELECT
+        "ETL_ID"
+    FROM "HM_MLOPS"."HM_RAW"."CUSTOMERS"
+    ORDER BY "ETL_TIMESTAMP" DESC
+    LIMIT 1
+)
+SELECT 
+    -- get the columns we need based on NVIDIA previous experiments
+    COALESCE(NULLIF(cd."RAW_DATA":"Active",''),0.0)::FLOAT AS ACTIVE, 
+    COALESCE(NULLIF(cd."RAW_DATA":"FN",''), 0.0)::FLOAT AS FN,
+    COALESCE(NULLIF(cd."RAW_DATA":"age",''), 0.0)::FLOAT AS AGE,
+    cd."RAW_DATA":"club_member_status"::VARCHAR AS club_member_status,
+    cd."RAW_DATA":"customer_id"::VARCHAR AS customer_id,
+    cd."RAW_DATA":"fashion_news_frequency"::VARCHAR AS fashion_news_frequency,
+    cd."RAW_DATA":"postal_code"::VARCHAR AS postal_code
+FROM 
+    "HM_MLOPS"."HM_RAW"."CUSTOMERS" as cd
+JOIN 
+    latest_etl as le ON le.ETL_ID=cd.ETL_ID
+ORDER BY CUSTOMER_ID
+      );
+17:11:28.652066 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+17:11:35.009465 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 6.36 seconds
+17:11:35.010881 [debug] [Thread-1  ]: finished collecting timing info
+17:11:35.011103 [debug] [Thread-1  ]: On model.h_m_merlin_playground.customers_staging: Close
+17:11:35.157889 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaab555df0>]}
+17:11:35.158355 [info ] [Thread-1  ]: 2 of 8 OK created table model HM_POST.customers_staging......................... [[32mSUCCESS 1[0m in 6.51s]
+17:11:35.158658 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.customers_staging
+17:11:35.158812 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.images_staging
+17:11:35.159000 [info ] [Thread-1  ]: 3 of 8 START table model HM_POST.images_staging................................. [RUN]
+17:11:35.159647 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.h_m_merlin_playground.images_staging"
+17:11:35.159793 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.images_staging
+17:11:35.159916 [debug] [Thread-1  ]: Compiling model.h_m_merlin_playground.images_staging
+17:11:35.160935 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.images_staging"
+17:11:35.161219 [debug] [Thread-1  ]: finished collecting timing info
+17:11:35.161349 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.images_staging
+17:11:35.163636 [debug] [Thread-1  ]: Writing runtime SQL for node "model.h_m_merlin_playground.images_staging"
+17:11:35.164257 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.images_staging"
+17:11:35.164386 [debug] [Thread-1  ]: On model.h_m_merlin_playground.images_staging: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.images_staging"} */
+
+
+      create or replace transient table HM_MLOPS.HM_POST.images_staging  as
+      (WITH latest_etl AS (
+    SELECT
+        "ETL_ID"
+    FROM "HM_MLOPS"."HM_RAW"."IMAGES_TO_S3"
+    ORDER BY "ETL_TIMESTAMP" DESC
+    LIMIT 1
+)
+SELECT 
+    cd."RAW_DATA":"article_id"::INT AS ARTICLE_ID, 
+    'https://hm-kaggle-images.s3.us-west-2.amazonaws.com/' || cd."RAW_DATA":"article_id"::VARCHAR || '.jpg' AS S3_URL
+FROM 
+    "HM_MLOPS"."HM_RAW"."IMAGES_TO_S3" as cd
+JOIN 
+    latest_etl as le ON le.ETL_ID=cd.ETL_ID
+ORDER BY ARTICLE_ID
+      );
+17:11:35.164496 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+17:11:38.308973 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 3.14 seconds
+17:11:38.310449 [debug] [Thread-1  ]: finished collecting timing info
+17:11:38.310654 [debug] [Thread-1  ]: On model.h_m_merlin_playground.images_staging: Close
+17:11:38.446194 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaaabfe220>]}
+17:11:38.446652 [info ] [Thread-1  ]: 3 of 8 OK created table model HM_POST.images_staging............................ [[32mSUCCESS 1[0m in 3.29s]
+17:11:38.446975 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.images_staging
+17:11:38.447169 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.transactions_staging
+17:11:38.447635 [info ] [Thread-1  ]: 4 of 8 START table model HM_POST.transactions_staging........................... [RUN]
+17:11:38.448141 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.h_m_merlin_playground.transactions_staging"
+17:11:38.448297 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.transactions_staging
+17:11:38.448435 [debug] [Thread-1  ]: Compiling model.h_m_merlin_playground.transactions_staging
+17:11:38.449739 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.transactions_staging"
+17:11:38.450068 [debug] [Thread-1  ]: finished collecting timing info
+17:11:38.450219 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.transactions_staging
+17:11:38.451939 [debug] [Thread-1  ]: Writing runtime SQL for node "model.h_m_merlin_playground.transactions_staging"
+17:11:38.452664 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.transactions_staging"
+17:11:38.452804 [debug] [Thread-1  ]: On model.h_m_merlin_playground.transactions_staging: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.transactions_staging"} */
+
+
+      create or replace transient table HM_MLOPS.HM_POST.transactions_staging  as
+      (WITH latest_etl AS (
+    SELECT
+        "ETL_ID"
+    FROM "HM_MLOPS"."HM_RAW"."TRANSACTIONS_TRAIN"
+    ORDER BY "ETL_TIMESTAMP" DESC
+    LIMIT 1
+)
+SELECT 
+    -- get the columns we need based on NVIDIA previous experiments
+    cd."RAW_DATA":"article_id"::INT AS ARTICLE_ID, 
+    cd."RAW_DATA":"customer_id"::VARCHAR AS customer_id,
+    cd."RAW_DATA":"price"::FLOAT AS price,
+    cd."RAW_DATA":"sales_channel_id"::INT  as sales_channel_id,
+    cd."RAW_DATA":"t_dat"::DATETIME as t_dat
+FROM 
+     "HM_MLOPS"."HM_RAW"."TRANSACTIONS_TRAIN" as cd
+JOIN 
+    latest_etl as le ON le.ETL_ID=cd.ETL_ID
+ORDER BY t_dat ASC
+      );
+17:11:38.452913 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+17:11:53.611756 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 15.16 seconds
+17:11:53.613369 [debug] [Thread-1  ]: finished collecting timing info
+17:11:53.613599 [debug] [Thread-1  ]: On model.h_m_merlin_playground.transactions_staging: Close
+17:11:53.752752 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaab6218b0>]}
+17:11:53.753448 [info ] [Thread-1  ]: 4 of 8 OK created table model HM_POST.transactions_staging...................... [[32mSUCCESS 1[0m in 15.30s]
+17:11:53.753854 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.transactions_staging
+17:11:53.754044 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.articles_metadata
+17:11:53.754736 [info ] [Thread-1  ]: 5 of 8 START table model HM_POST.articles_metadata.............................. [RUN]
+17:11:53.755876 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.h_m_merlin_playground.articles_metadata"
+17:11:53.756059 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.articles_metadata
+17:11:53.756201 [debug] [Thread-1  ]: Compiling model.h_m_merlin_playground.articles_metadata
+17:11:53.758813 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.articles_metadata"
+17:11:53.759186 [debug] [Thread-1  ]: finished collecting timing info
+17:11:53.759349 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.articles_metadata
+17:11:53.761339 [debug] [Thread-1  ]: Writing runtime SQL for node "model.h_m_merlin_playground.articles_metadata"
+17:11:53.762014 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.articles_metadata"
+17:11:53.762166 [debug] [Thread-1  ]: On model.h_m_merlin_playground.articles_metadata: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.articles_metadata"} */
+
+
+      create or replace transient table HM_MLOPS.HM_POST.articles_metadata  as
+      (SELECT 
+    i_s.S3_URL AS S3_URL,
+    cd.*
+FROM 
+    HM_MLOPS.HM_POST.articles_staging as cd
+LEFT JOIN
+    HM_MLOPS.HM_POST.images_staging AS i_s
+    ON i_s.ARTICLE_ID=cd.ARTICLE_ID
+      );
+17:11:53.762288 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+17:11:55.703722 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.94 seconds
+17:11:55.705241 [debug] [Thread-1  ]: finished collecting timing info
+17:11:55.705458 [debug] [Thread-1  ]: On model.h_m_merlin_playground.articles_metadata: Close
+17:11:55.839053 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaaac197f0>]}
+17:11:55.839505 [info ] [Thread-1  ]: 5 of 8 OK created table model HM_POST.articles_metadata......................... [[32mSUCCESS 1[0m in 2.08s]
+17:11:55.839806 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.articles_metadata
+17:11:55.839963 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.dedup_transactions
+17:11:55.840146 [info ] [Thread-1  ]: 6 of 8 START table model HM_POST.dedup_transactions............................. [RUN]
+17:11:55.840517 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.h_m_merlin_playground.dedup_transactions"
+17:11:55.840654 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.dedup_transactions
+17:11:55.840767 [debug] [Thread-1  ]: Compiling model.h_m_merlin_playground.dedup_transactions
+17:11:55.842617 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.dedup_transactions"
+17:11:55.843145 [debug] [Thread-1  ]: finished collecting timing info
+17:11:55.843320 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.dedup_transactions
+17:11:55.845000 [debug] [Thread-1  ]: Writing runtime SQL for node "model.h_m_merlin_playground.dedup_transactions"
+17:11:55.845818 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.dedup_transactions"
+17:11:55.845946 [debug] [Thread-1  ]: On model.h_m_merlin_playground.dedup_transactions: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.dedup_transactions"} */
+
+
+      create or replace transient table HM_MLOPS.HM_POST.dedup_transactions  as
+      (SELECT 
+    ARTICLE_ID, 
+    customer_id,
+    last_value(price) over (partition by ARTICLE_ID, CUSTOMER_ID order by t_dat ASC) as price,
+    last_value(sales_channel_id) over (partition by ARTICLE_ID, CUSTOMER_ID order by t_dat) as sales_channel_id,
+    last_value(t_dat) over (partition by ARTICLE_ID, CUSTOMER_ID order by t_dat ASC) as t_dat
+FROM 
+    HM_MLOPS.HM_POST.transactions_staging as ts
+GROUP BY 
+   ARTICLE_ID, 
+   customer_id,
+   price,
+   sales_channel_id,
+   t_dat
+ORDER BY 
+    ARTICLE_ID, 
+    customer_id
+      );
+17:11:55.846041 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+17:12:38.050906 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 42.2 seconds
+17:12:38.054832 [debug] [Thread-1  ]: finished collecting timing info
+17:12:38.055130 [debug] [Thread-1  ]: On model.h_m_merlin_playground.dedup_transactions: Close
+17:12:38.197881 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaaac48a60>]}
+17:12:38.198564 [info ] [Thread-1  ]: 6 of 8 OK created table model HM_POST.dedup_transactions........................ [[32mSUCCESS 1[0m in 42.36s]
+17:12:38.199082 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.dedup_transactions
+17:12:38.200167 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.joined_dataframe
+17:12:38.200480 [info ] [Thread-1  ]: 7 of 8 START table model HM_POST.joined_dataframe............................... [RUN]
+17:12:38.200959 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.h_m_merlin_playground.joined_dataframe"
+17:12:38.201141 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.joined_dataframe
+17:12:38.201325 [debug] [Thread-1  ]: Compiling model.h_m_merlin_playground.joined_dataframe
+17:12:38.204057 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.joined_dataframe"
+17:12:38.204395 [debug] [Thread-1  ]: finished collecting timing info
+17:12:38.204547 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.joined_dataframe
+17:12:38.206376 [debug] [Thread-1  ]: Writing runtime SQL for node "model.h_m_merlin_playground.joined_dataframe"
+17:12:38.207239 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.joined_dataframe"
+17:12:38.207400 [debug] [Thread-1  ]: On model.h_m_merlin_playground.joined_dataframe: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.joined_dataframe"} */
+
+
+      create or replace transient table HM_MLOPS.HM_POST.joined_dataframe  as
+      (SELECT 
+        a_s.*,
+        c_s.*,
+        t_s.price,
+        t_s.sales_channel_id,
+        t_s.t_dat
+ FROM 
+        HM_MLOPS.HM_POST.dedup_transactions as t_s
+    JOIN 
+        HM_MLOPS.HM_POST.articles_metadata as a_s
+    ON 
+        a_s.ARTICLE_ID=t_s.ARTICLE_ID
+    JOIN 
+        HM_MLOPS.HM_POST.customers_staging as c_s
+    ON
+        c_s.CUSTOMER_ID=t_s.CUSTOMER_ID
+      );
+17:12:38.207530 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+17:13:03.909365 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 25.7 seconds
+17:13:03.910578 [debug] [Thread-1  ]: finished collecting timing info
+17:13:03.910732 [debug] [Thread-1  ]: On model.h_m_merlin_playground.joined_dataframe: Close
+17:13:04.089383 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaaac4e2e0>]}
+17:13:04.089728 [info ] [Thread-1  ]: 7 of 8 OK created table model HM_POST.joined_dataframe.......................... [[32mSUCCESS 1[0m in 25.89s]
+17:13:04.089945 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.joined_dataframe
+17:13:04.090712 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.filtered_dataframe
+17:13:04.090878 [info ] [Thread-1  ]: 8 of 8 START table model HM_POST.filtered_dataframe............................. [RUN]
+17:13:04.091186 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.h_m_merlin_playground.filtered_dataframe"
+17:13:04.091271 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.filtered_dataframe
+17:13:04.091352 [debug] [Thread-1  ]: Compiling model.h_m_merlin_playground.filtered_dataframe
+17:13:04.092837 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.filtered_dataframe"
+17:13:04.093033 [debug] [Thread-1  ]: finished collecting timing info
+17:13:04.093120 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.filtered_dataframe
+17:13:04.094349 [debug] [Thread-1  ]: Writing runtime SQL for node "model.h_m_merlin_playground.filtered_dataframe"
+17:13:04.094847 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.filtered_dataframe"
+17:13:04.094964 [debug] [Thread-1  ]: On model.h_m_merlin_playground.filtered_dataframe: /* {"app": "dbt", "dbt_version": "1.0.9", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.filtered_dataframe"} */
+
+
+      create or replace transient table HM_MLOPS.HM_POST.filtered_dataframe  as
+      (WITH frequent_customers AS (
+    SELECT 
+        CUSTOMER_ID, 
+        COUNT(*) AS USER_INTERACTIONS
+    FROM 
+         HM_MLOPS.HM_POST.joined_dataframe
+    WHERE 
+        T_DAT < '2020-09-08' -- only check for the training set
+    GROUP BY CUSTOMER_ID
+    HAVING USER_INTERACTIONS >= 5  -- min K interactions
+    ORDER BY 2 ASC -- debug
+)
+SELECT 
+    t_s.*
+FROM 
+    HM_MLOPS.HM_POST.joined_dataframe  as t_s
+JOIN 
+    frequent_customers as f_c ON 
+    t_s.CUSTOMER_ID = f_c.CUSTOMER_ID
+      );
+17:13:04.095037 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+17:13:29.105859 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 25.01 seconds
+17:13:29.106982 [debug] [Thread-1  ]: finished collecting timing info
+17:13:29.107153 [debug] [Thread-1  ]: On model.h_m_merlin_playground.filtered_dataframe: Close
+17:13:29.253623 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '400c2be4-361a-4d0e-a508-328d3a6621fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaab6308b0>]}
+17:13:29.253967 [info ] [Thread-1  ]: 8 of 8 OK created table model HM_POST.filtered_dataframe........................ [[32mSUCCESS 1[0m in 25.16s]
+17:13:29.254180 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.filtered_dataframe
+17:13:29.255507 [debug] [MainThread]: Acquiring new snowflake connection "master"
+17:13:29.255769 [info ] [MainThread]: 
+17:13:29.255967 [info ] [MainThread]: Finished running 8 table models in 127.33s.
+17:13:29.256110 [debug] [MainThread]: Connection 'master' was properly closed.
+17:13:29.256182 [debug] [MainThread]: Connection 'model.h_m_merlin_playground.filtered_dataframe' was properly closed.
+17:13:29.259229 [info ] [MainThread]: 
+17:13:29.259411 [info ] [MainThread]: [32mCompleted successfully[0m
+17:13:29.259576 [info ] [MainThread]: 
+17:13:29.259706 [info ] [MainThread]: Done. PASS=8 WARN=0 ERROR=0 SKIP=0 TOTAL=8
+17:13:29.259916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaad92a700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faa79e34070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faaabfdef10>]}
+
+
+============================== 2023-03-18 13:17:15.395762 | e92f760e-464f-47ca-86f3-5eedaab9c023 ==============================
+[0m13:17:15.395762 [info ] [MainThread]: Running with dbt=1.4.5
+[0m13:17:15.397040 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/nandhu/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m13:17:15.397346 [debug] [MainThread]: Tracking: tracking
+[0m13:17:15.397607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dcc174580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dcc1746a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dcc174670>]}
+[0m13:17:15.404886 [debug] [MainThread]: checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6, vars: {}, profile: None, target: None, version: 1.4.5
+[0m13:17:15.409854 [debug] [MainThread]: Failed to load parsed file from disk at /home/nandhu/projects/recs-at-resonable-scale/src/dbt/target/partial_parse.msgpack: Field "docs" of type MutableMapping[str, Documentation] in Manifest has invalid value {'dbt.__overview__': {'unique_id': 'dbt.__overview__', 'package_name': 'dbt', 'root_path': '/home/nandhu/.cache/pypoetry/virtualenvs/recs-at-resonable-scale-bYrdeQFt-py3.8/lib/python3.8/site-packages/dbt/include/global_project', 'path': 'overview.md', 'original_file_path': 'docs/overview.md', 'name': '__overview__', 'block_contents': "### Welcome!\n\nWelcome to the auto-generated documentation for your dbt project!\n\n### Navigation\n\nYou can use the `Project` and `Database` navigation tabs on the left side of the window to explore the models\nin your project.\n\n#### Project Tab\nThe `Project` tab mirrors the directory structure of your dbt project. In this tab, you can see all of the\nmodels defined in your dbt project, as well as models imported from dbt packages.\n\n#### Database Tab\nThe `Database` tab also exposes your models, but in a format that looks more like a database explorer. This view\nshows relations (tables and views) grouped into database schemas. Note that ephemeral models are _not_ shown\nin this interface, as they do not exist in the database.\n\n### Graph Exploration\nYou can click the blue icon on the bottom-right corner of the page to view the lineage graph of your models.\n\nOn model pages, you'll see the immediate parents and children of the model you're exploring. By clicking the `Expand`\nbutton at the top-right of this lineage pane, you'll be able to see all of the models that are used to build,\nor are built from, the model you're exploring.\n\nOnce expanded, you'll be able to use the `--select` and `--exclude` model selection syntax to filter the\nmodels in the graph. For more information on model selection, check out the [dbt docs](https://docs.getdbt.com/docs/model-selection-syntax).\n\nNote that you can also right-click on models to interactively filter and explore the graph.\n\n---\n\n### More information\n\n- [What is dbt](https://docs.getdbt.com/docs/introduction)?\n- Read the [dbt viewpoint](https://docs.getdbt.com/docs/viewpoint)\n- [Installation](https://docs.getdbt.com/docs/installation)\n- Join the [dbt Community](https://www.getdbt.com/community/) for questions and discussion"}}
+[0m13:17:15.410379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df9b74fd0>]}
+[0m13:17:15.749474 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/images_staging.sql
+[0m13:17:15.757946 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/articles_metadata.sql
+[0m13:17:15.759968 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/transactions_staging.sql
+[0m13:17:15.761987 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/filtered_dataframe.sql
+[0m13:17:15.763897 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/joined_dataframe.sql
+[0m13:17:15.765601 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/dedup_transactions.sql
+[0m13:17:15.767104 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/customers_staging.sql
+[0m13:17:15.768619 [debug] [MainThread]: 1699: static parser successfully parsed metaflow/articles_staging.sql
+[0m13:17:15.782005 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'image_staging' in the 'models' section of file 'models/metaflow/schema.yml'
+[0m13:17:15.804849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df8262700>]}
+[0m13:17:15.853401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dccee6eb0>]}
+[0m13:17:15.853703 [info ] [MainThread]: Found 8 models, 4 tests, 0 snapshots, 0 analyses, 306 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m13:17:15.853912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dccee6f40>]}
+[0m13:17:15.854864 [info ] [MainThread]: 
+[0m13:17:15.855771 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:17:15.856676 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_HM_MLOPS'
+[0m13:17:15.864865 [debug] [ThreadPool]: Using snowflake connection "list_HM_MLOPS"
+[0m13:17:15.865064 [debug] [ThreadPool]: On list_HM_MLOPS: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "connection_name": "list_HM_MLOPS"} */
+show terse schemas in database HM_MLOPS
+    limit 10000
+[0m13:17:15.865189 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:17:16.528035 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1 seconds
+[0m13:17:16.530386 [debug] [ThreadPool]: On list_HM_MLOPS: Close
+[0m13:17:16.674879 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_HM_MLOPS_HM_POST'
+[0m13:17:16.680191 [debug] [ThreadPool]: Using snowflake connection "list_HM_MLOPS_HM_POST"
+[0m13:17:16.680428 [debug] [ThreadPool]: On list_HM_MLOPS_HM_POST: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "connection_name": "list_HM_MLOPS_HM_POST"} */
+show terse objects in HM_MLOPS.HM_POST
+[0m13:17:16.680586 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:17:17.272706 [debug] [ThreadPool]: SQL status: SUCCESS 8 in 1 seconds
+[0m13:17:17.273891 [debug] [ThreadPool]: On list_HM_MLOPS_HM_POST: Close
+[0m13:17:17.412931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dfd49a970>]}
+[0m13:17:17.413491 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:17:17.413710 [info ] [MainThread]: 
+[0m13:17:17.416304 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.articles_staging
+[0m13:17:17.416563 [info ] [Thread-1  ]: 1 of 8 START sql table model HM_POST.articles_staging .......................... [RUN]
+[0m13:17:17.416916 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.h_m_merlin_playground.articles_staging'
+[0m13:17:17.417061 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.articles_staging
+[0m13:17:17.418607 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.articles_staging"
+[0m13:17:17.418942 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.articles_staging (compile): 2023-03-18 13:17:17.417153 => 2023-03-18 13:17:17.418882
+[0m13:17:17.419097 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.articles_staging
+[0m13:17:17.436148 [debug] [Thread-1  ]: Writing runtime sql for node "model.h_m_merlin_playground.articles_staging"
+[0m13:17:17.436986 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.articles_staging"
+[0m13:17:17.437133 [debug] [Thread-1  ]: On model.h_m_merlin_playground.articles_staging: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.articles_staging"} */
+create or replace transient table HM_MLOPS.HM_POST.articles_staging  as
+        (WITH latest_etl AS (
+    SELECT
+        "ETL_ID"
+    FROM "HM_MLOPS"."HM_RAW"."ARTICLES"
+    ORDER BY "ETL_TIMESTAMP" DESC
+    LIMIT 1
+)
+SELECT 
+    -- get the columns we need based on NVIDIA previous experiments
+    cd."RAW_DATA":"article_id"::INT AS ARTICLE_ID, 
+    cd."RAW_DATA":"product_code"::INT AS PRODUCT_CODE, 
+    cd."RAW_DATA":"product_type_no"::INT AS PRODUCT_TYPE_NO, 
+    cd."RAW_DATA":"product_group_name"::VARCHAR AS PRODUCT_GROUP_NAME, 
+    cd."RAW_DATA":"graphical_appearance_no"::INT AS graphical_appearance_no, 
+    cd."RAW_DATA":"colour_group_code"::INT AS colour_group_code, 
+    cd."RAW_DATA":"perceived_colour_value_id"::INT AS perceived_colour_value_id, 
+    cd."RAW_DATA":"perceived_colour_master_id"::INT AS perceived_colour_master_id, 
+    cd."RAW_DATA":"department_no"::INT AS department_no,
+    cd."RAW_DATA":"index_code"::VARCHAR AS index_code, 
+    cd."RAW_DATA":"index_group_no"::INT AS index_group_no, 
+    cd."RAW_DATA":"section_no"::INT AS section_no, 
+    cd."RAW_DATA":"garment_group_no"::INT AS garment_group_no
+FROM 
+    "HM_MLOPS"."HM_RAW"."ARTICLES" as cd
+JOIN 
+    latest_etl as le ON le.ETL_ID=cd.ETL_ID
+        );
+[0m13:17:17.437233 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m13:17:20.125125 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 3 seconds
+[0m13:17:20.149215 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.articles_staging (execute): 2023-03-18 13:17:17.419189 => 2023-03-18 13:17:20.149155
+[0m13:17:20.149442 [debug] [Thread-1  ]: On model.h_m_merlin_playground.articles_staging: Close
+[0m13:17:20.304189 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df76edd00>]}
+[0m13:17:20.304803 [info ] [Thread-1  ]: 1 of 8 OK created sql table model HM_POST.articles_staging ..................... [[32mSUCCESS 1[0m in 2.89s]
+[0m13:17:20.306349 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.articles_staging
+[0m13:17:20.306848 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.customers_staging
+[0m13:17:20.307345 [info ] [Thread-1  ]: 2 of 8 START sql table model HM_POST.customers_staging ......................... [RUN]
+[0m13:17:20.308184 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.h_m_merlin_playground.customers_staging'
+[0m13:17:20.308971 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.customers_staging
+[0m13:17:20.310825 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.customers_staging"
+[0m13:17:20.311549 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.customers_staging (compile): 2023-03-18 13:17:20.309226 => 2023-03-18 13:17:20.311464
+[0m13:17:20.311838 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.customers_staging
+[0m13:17:20.314415 [debug] [Thread-1  ]: Writing runtime sql for node "model.h_m_merlin_playground.customers_staging"
+[0m13:17:20.315543 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.customers_staging"
+[0m13:17:20.315764 [debug] [Thread-1  ]: On model.h_m_merlin_playground.customers_staging: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.customers_staging"} */
+create or replace transient table HM_MLOPS.HM_POST.customers_staging  as
+        (WITH latest_etl AS (
+    SELECT
+        "ETL_ID"
+    FROM "HM_MLOPS"."HM_RAW"."CUSTOMERS"
+    ORDER BY "ETL_TIMESTAMP" DESC
+    LIMIT 1
+)
+SELECT 
+    -- get the columns we need based on NVIDIA previous experiments
+    COALESCE(NULLIF(cd."RAW_DATA":"Active",''),0.0)::FLOAT AS ACTIVE, 
+    COALESCE(NULLIF(cd."RAW_DATA":"FN",''), 0.0)::FLOAT AS FN,
+    COALESCE(NULLIF(cd."RAW_DATA":"age",''), 0.0)::FLOAT AS AGE,
+    cd."RAW_DATA":"club_member_status"::VARCHAR AS club_member_status,
+    cd."RAW_DATA":"customer_id"::VARCHAR AS customer_id,
+    cd."RAW_DATA":"fashion_news_frequency"::VARCHAR AS fashion_news_frequency,
+    cd."RAW_DATA":"postal_code"::VARCHAR AS postal_code
+FROM 
+    "HM_MLOPS"."HM_RAW"."CUSTOMERS" as cd
+JOIN 
+    latest_etl as le ON le.ETL_ID=cd.ETL_ID
+ORDER BY CUSTOMER_ID
+        );
+[0m13:17:20.315988 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m13:17:23.466084 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 3 seconds
+[0m13:17:23.467718 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.customers_staging (execute): 2023-03-18 13:17:20.312047 => 2023-03-18 13:17:23.467673
+[0m13:17:23.467894 [debug] [Thread-1  ]: On model.h_m_merlin_playground.customers_staging: Close
+[0m13:17:23.608367 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df9aca700>]}
+[0m13:17:23.609047 [info ] [Thread-1  ]: 2 of 8 OK created sql table model HM_POST.customers_staging .................... [[32mSUCCESS 1[0m in 3.30s]
+[0m13:17:23.609432 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.customers_staging
+[0m13:17:23.609723 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.images_staging
+[0m13:17:23.609987 [info ] [Thread-1  ]: 3 of 8 START sql table model HM_POST.images_staging ............................ [RUN]
+[0m13:17:23.610730 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.h_m_merlin_playground.images_staging'
+[0m13:17:23.611021 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.images_staging
+[0m13:17:23.612335 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.images_staging"
+[0m13:17:23.612618 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.images_staging (compile): 2023-03-18 13:17:23.611183 => 2023-03-18 13:17:23.612576
+[0m13:17:23.612759 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.images_staging
+[0m13:17:23.614527 [debug] [Thread-1  ]: Writing runtime sql for node "model.h_m_merlin_playground.images_staging"
+[0m13:17:23.614983 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.images_staging"
+[0m13:17:23.615099 [debug] [Thread-1  ]: On model.h_m_merlin_playground.images_staging: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.images_staging"} */
+create or replace transient table HM_MLOPS.HM_POST.images_staging  as
+        (WITH latest_etl AS (
+    SELECT
+        "ETL_ID"
+    FROM "HM_MLOPS"."HM_RAW"."IMAGES_TO_S3"
+    ORDER BY "ETL_TIMESTAMP" DESC
+    LIMIT 1
+)
+SELECT 
+    cd."RAW_DATA":"article_id"::INT AS ARTICLE_ID, 
+    'https://hm-kaggle-images.s3.us-west-2.amazonaws.com/' || cd."RAW_DATA":"article_id"::VARCHAR || '.jpg' AS S3_URL
+FROM 
+    "HM_MLOPS"."HM_RAW"."IMAGES_TO_S3" as cd
+JOIN 
+    latest_etl as le ON le.ETL_ID=cd.ETL_ID
+ORDER BY ARTICLE_ID
+        );
+[0m13:17:23.615182 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m13:17:24.660860 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1 seconds
+[0m13:17:24.662879 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.images_staging (execute): 2023-03-18 13:17:23.612829 => 2023-03-18 13:17:24.662828
+[0m13:17:24.663089 [debug] [Thread-1  ]: On model.h_m_merlin_playground.images_staging: Close
+[0m13:17:24.803052 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df76edc70>]}
+[0m13:17:24.803519 [info ] [Thread-1  ]: 3 of 8 OK created sql table model HM_POST.images_staging ....................... [[32mSUCCESS 1[0m in 1.19s]
+[0m13:17:24.803804 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.images_staging
+[0m13:17:24.804031 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.transactions_staging
+[0m13:17:24.804553 [info ] [Thread-1  ]: 4 of 8 START sql table model HM_POST.transactions_staging ...................... [RUN]
+[0m13:17:24.805136 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.h_m_merlin_playground.transactions_staging'
+[0m13:17:24.805541 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.transactions_staging
+[0m13:17:24.807423 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.transactions_staging"
+[0m13:17:24.807814 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.transactions_staging (compile): 2023-03-18 13:17:24.805849 => 2023-03-18 13:17:24.807747
+[0m13:17:24.808004 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.transactions_staging
+[0m13:17:24.809690 [debug] [Thread-1  ]: Writing runtime sql for node "model.h_m_merlin_playground.transactions_staging"
+[0m13:17:24.810373 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.transactions_staging"
+[0m13:17:24.810510 [debug] [Thread-1  ]: On model.h_m_merlin_playground.transactions_staging: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.transactions_staging"} */
+create or replace transient table HM_MLOPS.HM_POST.transactions_staging  as
+        (WITH latest_etl AS (
+    SELECT
+        "ETL_ID"
+    FROM "HM_MLOPS"."HM_RAW"."TRANSACTIONS_TRAIN"
+    ORDER BY "ETL_TIMESTAMP" DESC
+    LIMIT 1
+)
+SELECT 
+    -- get the columns we need based on NVIDIA previous experiments
+    cd."RAW_DATA":"article_id"::INT AS ARTICLE_ID, 
+    cd."RAW_DATA":"customer_id"::VARCHAR AS customer_id,
+    cd."RAW_DATA":"price"::FLOAT AS price,
+    cd."RAW_DATA":"sales_channel_id"::INT  as sales_channel_id,
+    cd."RAW_DATA":"t_dat"::DATETIME as t_dat
+FROM 
+     "HM_MLOPS"."HM_RAW"."TRANSACTIONS_TRAIN" as cd
+JOIN 
+    latest_etl as le ON le.ETL_ID=cd.ETL_ID
+ORDER BY t_dat ASC
+        );
+[0m13:17:24.810616 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m13:17:27.407526 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 3 seconds
+[0m13:17:27.409891 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.transactions_staging (execute): 2023-03-18 13:17:24.808102 => 2023-03-18 13:17:27.409834
+[0m13:17:27.410168 [debug] [Thread-1  ]: On model.h_m_merlin_playground.transactions_staging: Close
+[0m13:17:27.566391 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df6e16820>]}
+[0m13:17:27.566827 [info ] [Thread-1  ]: 4 of 8 OK created sql table model HM_POST.transactions_staging ................. [[32mSUCCESS 1[0m in 2.76s]
+[0m13:17:27.567124 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.transactions_staging
+[0m13:17:27.567355 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.articles_metadata
+[0m13:17:27.567560 [info ] [Thread-1  ]: 5 of 8 START sql table model HM_POST.articles_metadata ......................... [RUN]
+[0m13:17:27.568211 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.h_m_merlin_playground.articles_metadata'
+[0m13:17:27.568482 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.articles_metadata
+[0m13:17:27.570462 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.articles_metadata"
+[0m13:17:27.570801 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.articles_metadata (compile): 2023-03-18 13:17:27.568618 => 2023-03-18 13:17:27.570745
+[0m13:17:27.570980 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.articles_metadata
+[0m13:17:27.572675 [debug] [Thread-1  ]: Writing runtime sql for node "model.h_m_merlin_playground.articles_metadata"
+[0m13:17:27.573204 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.articles_metadata"
+[0m13:17:27.573348 [debug] [Thread-1  ]: On model.h_m_merlin_playground.articles_metadata: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.articles_metadata"} */
+create or replace transient table HM_MLOPS.HM_POST.articles_metadata  as
+        (SELECT 
+    i_s.S3_URL AS S3_URL,
+    cd.*
+FROM 
+    HM_MLOPS.HM_POST.articles_staging as cd
+LEFT JOIN
+    HM_MLOPS.HM_POST.images_staging AS i_s
+    ON i_s.ARTICLE_ID=cd.ARTICLE_ID
+        );
+[0m13:17:27.573458 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m13:17:30.247869 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 3 seconds
+[0m13:17:30.255637 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.articles_metadata (execute): 2023-03-18 13:17:27.571080 => 2023-03-18 13:17:30.255279
+[0m13:17:30.256895 [debug] [Thread-1  ]: On model.h_m_merlin_playground.articles_metadata: Close
+[0m13:17:30.408073 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df76ed580>]}
+[0m13:17:30.410567 [info ] [Thread-1  ]: 5 of 8 OK created sql table model HM_POST.articles_metadata .................... [[32mSUCCESS 1[0m in 2.84s]
+[0m13:17:30.411918 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.articles_metadata
+[0m13:17:30.412841 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.dedup_transactions
+[0m13:17:30.414854 [info ] [Thread-1  ]: 6 of 8 START sql table model HM_POST.dedup_transactions ........................ [RUN]
+[0m13:17:30.417655 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.h_m_merlin_playground.dedup_transactions'
+[0m13:17:30.418046 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.dedup_transactions
+[0m13:17:30.426480 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.dedup_transactions"
+[0m13:17:30.428213 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.dedup_transactions (compile): 2023-03-18 13:17:30.418191 => 2023-03-18 13:17:30.427980
+[0m13:17:30.428782 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.dedup_transactions
+[0m13:17:30.436167 [debug] [Thread-1  ]: Writing runtime sql for node "model.h_m_merlin_playground.dedup_transactions"
+[0m13:17:30.440372 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.dedup_transactions"
+[0m13:17:30.441704 [debug] [Thread-1  ]: On model.h_m_merlin_playground.dedup_transactions: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.dedup_transactions"} */
+create or replace transient table HM_MLOPS.HM_POST.dedup_transactions  as
+        (SELECT 
+    ARTICLE_ID, 
+    customer_id,
+    last_value(price) over (partition by ARTICLE_ID, CUSTOMER_ID order by t_dat ASC) as price,
+    last_value(sales_channel_id) over (partition by ARTICLE_ID, CUSTOMER_ID order by t_dat) as sales_channel_id,
+    last_value(t_dat) over (partition by ARTICLE_ID, CUSTOMER_ID order by t_dat ASC) as t_dat
+FROM 
+    HM_MLOPS.HM_POST.transactions_staging as ts
+GROUP BY 
+   ARTICLE_ID, 
+   customer_id,
+   price,
+   sales_channel_id,
+   t_dat
+ORDER BY 
+    ARTICLE_ID, 
+    customer_id
+        );
+[0m13:17:30.442073 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m13:17:33.244863 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 3 seconds
+[0m13:17:33.246537 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.dedup_transactions (execute): 2023-03-18 13:17:30.428941 => 2023-03-18 13:17:33.246490
+[0m13:17:33.246722 [debug] [Thread-1  ]: On model.h_m_merlin_playground.dedup_transactions: Close
+[0m13:17:33.379320 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dfd49a970>]}
+[0m13:17:33.379747 [info ] [Thread-1  ]: 6 of 8 OK created sql table model HM_POST.dedup_transactions ................... [[32mSUCCESS 1[0m in 2.96s]
+[0m13:17:33.380021 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.dedup_transactions
+[0m13:17:33.380951 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.joined_dataframe
+[0m13:17:33.381205 [info ] [Thread-1  ]: 7 of 8 START sql table model HM_POST.joined_dataframe .......................... [RUN]
+[0m13:17:33.381631 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.h_m_merlin_playground.joined_dataframe'
+[0m13:17:33.381918 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.joined_dataframe
+[0m13:17:33.384167 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.joined_dataframe"
+[0m13:17:33.384890 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.joined_dataframe (compile): 2023-03-18 13:17:33.382025 => 2023-03-18 13:17:33.384763
+[0m13:17:33.385263 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.joined_dataframe
+[0m13:17:33.387414 [debug] [Thread-1  ]: Writing runtime sql for node "model.h_m_merlin_playground.joined_dataframe"
+[0m13:17:33.388250 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.joined_dataframe"
+[0m13:17:33.388452 [debug] [Thread-1  ]: On model.h_m_merlin_playground.joined_dataframe: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.joined_dataframe"} */
+create or replace transient table HM_MLOPS.HM_POST.joined_dataframe  as
+        (SELECT 
+        a_s.*,
+        c_s.*,
+        t_s.price,
+        t_s.sales_channel_id,
+        t_s.t_dat
+ FROM 
+        HM_MLOPS.HM_POST.dedup_transactions as t_s
+    JOIN 
+        HM_MLOPS.HM_POST.articles_metadata as a_s
+    ON 
+        a_s.ARTICLE_ID=t_s.ARTICLE_ID
+    JOIN 
+        HM_MLOPS.HM_POST.customers_staging as c_s
+    ON
+        c_s.CUSTOMER_ID=t_s.CUSTOMER_ID
+        );
+[0m13:17:33.388567 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m13:17:38.072462 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 5 seconds
+[0m13:17:38.074755 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.joined_dataframe (execute): 2023-03-18 13:17:33.385528 => 2023-03-18 13:17:38.074685
+[0m13:17:38.075074 [debug] [Thread-1  ]: On model.h_m_merlin_playground.joined_dataframe: Close
+[0m13:17:38.226794 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df6d98be0>]}
+[0m13:17:38.227384 [info ] [Thread-1  ]: 7 of 8 OK created sql table model HM_POST.joined_dataframe ..................... [[32mSUCCESS 1[0m in 4.85s]
+[0m13:17:38.227761 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.joined_dataframe
+[0m13:17:38.228742 [debug] [Thread-1  ]: Began running node model.h_m_merlin_playground.filtered_dataframe
+[0m13:17:38.229078 [info ] [Thread-1  ]: 8 of 8 START sql table model HM_POST.filtered_dataframe ........................ [RUN]
+[0m13:17:38.229610 [debug] [Thread-1  ]: Acquiring new snowflake connection 'model.h_m_merlin_playground.filtered_dataframe'
+[0m13:17:38.229815 [debug] [Thread-1  ]: Began compiling node model.h_m_merlin_playground.filtered_dataframe
+[0m13:17:38.232610 [debug] [Thread-1  ]: Writing injected SQL for node "model.h_m_merlin_playground.filtered_dataframe"
+[0m13:17:38.232998 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.filtered_dataframe (compile): 2023-03-18 13:17:38.229941 => 2023-03-18 13:17:38.232936
+[0m13:17:38.233170 [debug] [Thread-1  ]: Began executing node model.h_m_merlin_playground.filtered_dataframe
+[0m13:17:38.235044 [debug] [Thread-1  ]: Writing runtime sql for node "model.h_m_merlin_playground.filtered_dataframe"
+[0m13:17:38.236186 [debug] [Thread-1  ]: Using snowflake connection "model.h_m_merlin_playground.filtered_dataframe"
+[0m13:17:38.236353 [debug] [Thread-1  ]: On model.h_m_merlin_playground.filtered_dataframe: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "nvidia-snowflake", "target_name": "dev", "node_id": "model.h_m_merlin_playground.filtered_dataframe"} */
+create or replace transient table HM_MLOPS.HM_POST.filtered_dataframe  as
+        (WITH frequent_customers AS (
+    SELECT 
+        CUSTOMER_ID, 
+        COUNT(*) AS USER_INTERACTIONS
+    FROM 
+         HM_MLOPS.HM_POST.joined_dataframe
+    WHERE 
+        T_DAT < '2020-09-08' -- only check for the training set
+    GROUP BY CUSTOMER_ID
+    HAVING USER_INTERACTIONS >= 5  -- min K interactions
+    ORDER BY 2 ASC -- debug
+)
+SELECT 
+    t_s.*
+FROM 
+    HM_MLOPS.HM_POST.joined_dataframe  as t_s
+JOIN 
+    frequent_customers as f_c ON 
+    t_s.CUSTOMER_ID = f_c.CUSTOMER_ID
+        );
+[0m13:17:38.236466 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m13:17:41.040430 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 3 seconds
+[0m13:17:41.042122 [debug] [Thread-1  ]: Timing info for model.h_m_merlin_playground.filtered_dataframe (execute): 2023-03-18 13:17:38.233265 => 2023-03-18 13:17:41.042080
+[0m13:17:41.042310 [debug] [Thread-1  ]: On model.h_m_merlin_playground.filtered_dataframe: Close
+[0m13:17:41.178286 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e92f760e-464f-47ca-86f3-5eedaab9c023', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df6e34ee0>]}
+[0m13:17:41.178724 [info ] [Thread-1  ]: 8 of 8 OK created sql table model HM_POST.filtered_dataframe ................... [[32mSUCCESS 1[0m in 2.95s]
+[0m13:17:41.179005 [debug] [Thread-1  ]: Finished running node model.h_m_merlin_playground.filtered_dataframe
+[0m13:17:41.180279 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:17:41.180595 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:17:41.180706 [debug] [MainThread]: Connection 'model.h_m_merlin_playground.filtered_dataframe' was properly closed.
+[0m13:17:41.180854 [info ] [MainThread]: 
+[0m13:17:41.181023 [info ] [MainThread]: Finished running 8 table models in 0 hours 0 minutes and 25.33 seconds (25.33s).
+[0m13:17:41.181378 [debug] [MainThread]: Command end result
+[0m13:17:41.186203 [info ] [MainThread]: 
+[0m13:17:41.186693 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:17:41.186906 [info ] [MainThread]: 
+[0m13:17:41.187061 [info ] [MainThread]: Done. PASS=8 WARN=0 ERROR=0 SKIP=0 TOTAL=8
+[0m13:17:41.187370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dcc19fd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dcc174700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3dcc1745e0>]}
+[0m13:17:41.187602 [debug] [MainThread]: Flushing usage events

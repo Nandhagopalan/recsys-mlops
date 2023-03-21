@@ -1,0 +1,37 @@
+version: 2
+
+models:
+    - name: articles_staging
+      description: "Map data in JSON to a fully flat structure"
+      columns:
+      - name: ARTICLE_ID
+        tests:
+          - unique
+          - not_null
+
+    - name: customers_staging
+      description: "Map data in JSON to a fully flat structure"
+      columns:
+      - name: CUSTOMER_ID
+        tests:
+          - unique
+          - not_null
+
+    - name: transactions_staging
+      description: "Map data in JSON to a fully flat structure"
+
+    - name: image_staging
+      description: "Image staging for S3 URL of products with naming convention"
+    
+    - name: articles_metadata
+      description: "Join metadata with image URL to get full product metadata"
+
+    - name: dedup_transactions
+      description: "For each user and article, keep the last purchase"
+    
+    - name: joined_dataframe
+      description: "Join the dedup purchases with articles and customers metadata"
+    
+    - name: filtered_dataframe
+      description: "Filter to a final datasets in which users have at least 5 training set purchases"
+    
