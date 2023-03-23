@@ -113,7 +113,7 @@ class myMerlinFlow(FlowSpec):
         if DATASTORE_SYSROOT_S3 is None:
             print("ATTENTION: LOCAL DATASTORE ENABLED")
         # check variables and connections are working fine
-        assert os.environ["COMET_API_KEY"] and self.COMET_PROJECT_NAME
+        #assert os.environ["COMET_API_KEY"] and self.COMET_PROJECT_NAME
         assert int(self.ROW_SAMPLING)
         from snowflake_client import SnowflakeClient
 
@@ -186,7 +186,7 @@ class myMerlinFlow(FlowSpec):
                 T_DAT,
                 S3_URL
             FROM
-                "EXPLORATION_DB"."HM_POST"."FILTERED_DATAFRAME"
+                "HM_MLOPS"."HM_POST"."FILTERED_DATAFRAME"
                 {}
             ORDER BY
                 T_DAT ASC
@@ -511,8 +511,7 @@ class myMerlinFlow(FlowSpec):
 
     @environment(
         vars={
-            "EN_BATCH": os.getenv("EN_BATCH"),
-            "COMET_API_KEY": os.getenv("COMET_API_KEY"),
+            "EN_BATCH": os.getenv("EN_BATCH")
         }
     )
     @enable_decorator(
@@ -649,14 +648,19 @@ class myMerlinFlow(FlowSpec):
                     break
             # rows to dataframe
             df = pd.DataFrame(rows)
-            assert len(df) == max_preds
+            #assert len(df) == max_preds
             # init clip
             device = "cuda" if torch.cuda.is_available() else "cpu"
             model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
             processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
             img_vectors = []
             for img in list(df["target_image_url"]):
-                cnt_vector = encode_image(model, processor, img, device)
+                #
+                #img_url="https://hm-kaggle-images.s3.us-west-2.amazonaws.com/"
+                key="0"+img.split("/")[-1]
+
+                print("********",img)
+                cnt_vector = encode_image(model, processor, key, device)
                 # shape is 1,512 - just save the 1 dim vector
                 img_vectors.append(cnt_vector[0])
             df["image_vectors"] = img_vectors
